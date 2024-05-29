@@ -149,6 +149,10 @@ a {
 .lots__heading {
   height: 47px;
   margin-bottom: 27px;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-left: 40px;
 }
 
 .lots__card-list {
@@ -159,6 +163,7 @@ a {
 }
 
 .lots__card-list-item {
+  position: relative;
   width: 334px;
   height: 563px;
 }
@@ -198,8 +203,22 @@ a {
   text-transform: uppercase;
   font-size: 22px;
   text-decoration: underline;
+  z-index: 2;
 }
 
 .card__text {
   font-size: 20px;
+  z-index: 2;
+}
+
+.lots__footer {
+  height: 55px;
+}
+
+.lots__look-more-link {
+  display: block;
+  align-items: end;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 40px;
 }
