@@ -144,15 +144,16 @@ a {
 
 .lots__heading {
   margin-bottom: 27px;
+  margin-left: 40px;
   font-weight: bold;
   font-size: 40px;
   text-transform: uppercase;
-  margin-left: 40px;
 }
 
 .lots__card-list {
   display: flex;
   flex-wrap: wrap;
+
   justify-content: space-between;
   color: #fff;
 }
@@ -160,6 +161,7 @@ a {
 .lots__card-list-item {
   z-index: 0;
   position: relative;
+  height: 563px;
   width: 334px;
   background-position: center;
   background-size: cover;
