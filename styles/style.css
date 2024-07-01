@@ -161,7 +161,8 @@ a {
 .lots__card-list-item {
   z-index: 0;
   position: relative;
-  height: 563px;
+  min-height: 100px;
+
   width: 334px;
   background-position: center;
   background-size: cover;
@@ -202,13 +203,14 @@ a {
 .card__text {
   font-size: 20px;
   z-index: 2;
+  line-height: 120%;
 }
 
 .lots__look-more-link {
   display: block;
   align-items: end;
   font-size: 20px;
-  margin-top: 30px;
+  margin-top: 31px;
   margin-left: 40px;
 }
 
